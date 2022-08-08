@@ -1,6 +1,8 @@
-export default function RunCommand() {
+import Build from '../build/index.js'
 
-    console.log("Build Command Run");
+export default function RunCommand() {
+    
+    Build();
 
 }
 
